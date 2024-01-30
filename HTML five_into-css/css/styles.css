@@ -1,0 +1,61 @@
+body {
+    background-color: aqua;
+}
+
+#container {
+    background-color: blueviolet;
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color: blueviolet;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover{
+    color: beige;
+    text-decoration: none;
+}
+
+
+
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+a {
+    color: darkgreen;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
