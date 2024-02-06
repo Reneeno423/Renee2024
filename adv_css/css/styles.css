@@ -66,3 +66,8 @@ main img {
     width: 33.33%;
     border-radius: 10px;
 }
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
