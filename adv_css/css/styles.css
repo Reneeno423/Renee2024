@@ -1,0 +1,26 @@
+/* Global Styles */
+body{
+    background-color: snow;
+
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+a{
+    color:darkviolet;
+}
+a:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+#container {
+    background-color: aqua;
+    width: 75%;
+    margin: 20px auto;
+}
+
+/* Desktop Styles */
+
+
