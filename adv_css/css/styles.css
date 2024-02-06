@@ -25,6 +25,7 @@ a:hover {
 nav{
     background-color: goldenrod;
     padding: 5px 0;
+    text-align: right;
 
 }
 nav li{
@@ -32,6 +33,9 @@ nav li{
 }
 nav li a{
     color: aqua;
-    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 
