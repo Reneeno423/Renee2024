@@ -58,3 +58,11 @@ main img {
   display: flex;
 
 }
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid color black;
+    width: 33.33%;
+    border-radius: 10px;
+}
