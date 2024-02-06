@@ -22,5 +22,16 @@ a:hover {
 }
 
 /* Desktop Styles */
+nav{
+    background-color: goldenrod;
+    padding: 5px 0;
 
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: aqua;
+    margin-left: 20px;
+}
 
