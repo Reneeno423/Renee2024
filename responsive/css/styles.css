@@ -99,3 +99,41 @@ footer {
     font-weight: bold;
 
 }
+/* Tablet Styles */
+
+@media(min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+    }
+    main img{
+        width: 50px;
+    }
+    .col img {
+        width: 75px;
+    }
+
+    
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+ #container {
+    width: 65%;
+    margin: 20px auto;
+
+ }
+ #lower {
+    width: 100px;
+    display: flex;
+ }
+ .col {
+    width: 33.33%;
+ }
+}
