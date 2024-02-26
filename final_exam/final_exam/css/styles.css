@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-    background-color: blueviolet;
+    background-color: rgb(71, 42, 98);
     padding: 20px;
     width: 75%;
     margin: 0 auto;
@@ -22,14 +22,14 @@ nav {
 }
 
 nav a {
-    color: blue;
+    color: rgb(48, 48, 111);
     font-size: 20px;
     font-weight: bold;
     margin: 0 10px;
 }
 
 nav a:hover{
-    color: beige;
+    color: rgb(211, 211, 204);
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ main img {
 }
 
 a {
-    color: darkgreen;
+    color: blue;
 }
 
 a:hover {
@@ -57,5 +57,9 @@ footer {
 }
 
 h2 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
