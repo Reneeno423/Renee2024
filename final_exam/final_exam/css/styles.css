@@ -1,73 +1,139 @@
 /* Global Styles */
-body{
-    background-color: rgb(157, 141, 141);
-
-}
 img {
-    display: block;
-    margin: 0 auto;
+    display:block;
+    margin: 0% auto;
     width: 100%;
 }
-a{
-    color:rgb(143, 58, 179);
+
+body {
+    background-color: chartreuse;
 }
-a:hover {
-    color: rgb(73, 17, 47);
-    text-decoration: none;
-}
+
 #container {
-    background-color: aqua;
-    width: 75%;
-    margin: 20px auto;
+    background-color: aquamarine;
+    padding: 10px;
 }
-h1, h2, h3{
+
+
+
+h1,
+h2,
+h3 {
     text-align: center;
-    color: rgb(110, 200, 110);
-}
-
-/* Desktop Styles */
-nav{
-    background-color: rgb(155, 134, 83);
-    padding: 5px 0;
-    text-align: right;
 
 }
-nav li{
-    display: inline-block;
+
+a {
+    color: black;
 }
-nav li a{
-    color: aqua;
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: bold;
+ a :hover {
+    color: blue;
+    text-decoration: none;
+
+ }
+
+
+/* Mobile Styles */
+nav {
+    background-color: coral;
+    padding: 10px;
 }
-header h1{
-    
-    font-size: 75px;
-    color: rgb(70, 70, 155);
-    text-shadow: 2px 2px 2px black;
+
+nav ul {
+   list-style: none; 
+   padding: 0;
 
 }
-main{
-    padding: 20px;
+nav li {
+    display: block;
 }
-main img {
- width: 50%;
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    margin: 5px;
 }
+
+header h1 {
+    font-size: 35px;
+    color: darkgreen;
+}
+
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
 #lower {
-  display: flex;
-
+    border: 2px solid black;
+    padding: 10px;
 }
 
 .col {
-    padding: 10px;
+    border: 2px solid black;
     margin: 10px;
-    border: 2px solid color black;
-    width: 33.33%;
-    border-radius: 10px;
+    padding: 10px;
 }
 
 footer {
     padding: 40px 0;
     text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color:darksalmon;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+/* Tablet Styles */
+
+@media(min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+    }
+    main img{
+        width: 50px;
+    }
+    .col img {
+        width: 75px;
+    }
+
+    
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+ #container {
+    width: 65%;
+    margin: 20px auto;
+
+ }
+ #lower {
+    width: 100px;
+    display: flex;
+ }
+ .col {
+    width: 33.33%;
+ }
 }
