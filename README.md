@@ -5,8 +5,7 @@ Renee Project
   <li><a href="HTML five_into-css/index.html" target="_blank">cssfive</a></li>
   <li><a href="adv_css/index.html" target="_blank">Advanced CSS</a></li>
   <li><a href="responsive/index.html" target="_blank">Responsive Design</a></li>
-  <li><a href="final_exam/index.html" target="_blank">Final Exam</a></li>
- </ul>
+</ul>
 
 
 
