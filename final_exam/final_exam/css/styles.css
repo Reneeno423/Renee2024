@@ -1,65 +1,73 @@
-body {
-    background-color: aqua;
+/* Global Styles */
+body{
+    background-color: snow;
+
 }
-
-#container {
-    background-color: rgb(71, 42, 98);
-    padding: 20px;
-    width: 75%;
-    margin: 0 auto;
-    border: 4px solid black;
-}
-
-header h1 {
-    text-align: center;
-    font-size: 100px;
-    color: white;
-}
-
-
-nav {
-    text-align: center;
-}
-
-nav a {
-    color: rgb(48, 48, 111);
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 10px;
-}
-
-nav a:hover{
-    color: rgb(211, 211, 204);
-    text-decoration: none;
-}
-
-
-
-main img {
+img {
     display: block;
-    width: 50%;
-    margin: 20px auto;
+    margin: 0 auto;
+    width: 100%;
 }
-
-a {
-    color: blue;
+a{
+    color:darkviolet;
 }
-
 a:hover {
     color: deeppink;
     text-decoration: none;
 }
+#container {
+    background-color: aqua;
+    width: 75%;
+    margin: 20px auto;
+}
+h1, h2, h3{
+    text-align: center;
+    color: green;
+}
 
+/* Desktop Styles */
+nav{
+    background-color: goldenrod;
+    padding: 5px 0;
+    text-align: right;
+
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: aqua;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header h1{
+    
+    font-size: 75px;
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+
+}
+main{
+    padding: 20px;
+}
+main img {
+ width: 50%;
+}
+#lower {
+  display: flex;
+
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid color black;
+    width: 33.33%;
+    border-radius: 10px;
+}
 
 footer {
     padding: 40px 0;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
     text-align: center;
 }
