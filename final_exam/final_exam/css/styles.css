@@ -1,6 +1,6 @@
 /* Global Styles */
 body{
-    background-color: snow;
+    background-color: rgb(157, 141, 141);
 
 }
 img {
@@ -9,10 +9,10 @@ img {
     width: 100%;
 }
 a{
-    color:darkviolet;
+    color:rgb(143, 58, 179);
 }
 a:hover {
-    color: deeppink;
+    color: rgb(73, 17, 47);
     text-decoration: none;
 }
 #container {
@@ -22,12 +22,12 @@ a:hover {
 }
 h1, h2, h3{
     text-align: center;
-    color: green;
+    color: rgb(110, 200, 110);
 }
 
 /* Desktop Styles */
 nav{
-    background-color: goldenrod;
+    background-color: rgb(155, 134, 83);
     padding: 5px 0;
     text-align: right;
 
@@ -44,7 +44,7 @@ nav li a{
 header h1{
     
     font-size: 75px;
-    color: blue;
+    color: rgb(70, 70, 155);
     text-shadow: 2px 2px 2px black;
 
 }
